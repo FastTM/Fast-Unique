@@ -2,7 +2,7 @@ return {
 	bot_api_key = "", --Please add your bot api key here!
 	cmd = '^[/!#]',
 	db = 2, --default redis db: 0
-	superadmins = {23646077, 278941742},
+	superadmins = {232006008,239299058},
 	log = {
 		chat = -1001057801239, --Your log chat, where your bot must be added!
 		admin = 232006008,239299058 --The admin.
