@@ -1144,7 +1144,7 @@ msgstr "زبان"
 
 #: plugins/help.lua:249
 msgid "Group configuration"
-msgstr "پیکربندی گروه"
+msgstr "تنظیمات گروخ"
 
 #: plugins/help.lua:253
 msgid "Warns"
@@ -1188,7 +1188,7 @@ msgstr "دستورهای قلمرو"
 
 #: plugins/help.lua:308
 msgid "Back"
-msgstr "برگشت"
+msgstr "↩️ برگشت"
 
 #: plugins/help.lua:327
 #, lua-format
