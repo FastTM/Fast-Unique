@@ -323,11 +323,11 @@ msgstr "🚷 شما عضو این گروه نیستید نمی توانید تن
 
 #: plugins/dashboard.lua:99
 msgid "ℹ️ Group ► Settings"
-msgstr "ℹ️ گروه ◄ تنظیمات"
+msgstr "شما از قبل در بخش تنظیمات هستید!"
 
 #: plugins/dashboard.lua:103
 msgid "ℹ️ Group ► Rules"
-msgstr "ℹ️ گروه ◄ قوانین"
+msgstr "شما از قبل در بخش قوانین هستید!"
 
 #: plugins/dashboard.lua:109
 msgid "I got kicked out of this group 😓"
@@ -338,6 +338,7 @@ msgstr "من از این گروه خارج شده ام 😓"
 msgid ""
 "*Creator*:\n"
 "%s\n"
+
 "\n"
 "*Admins*:\n"
 "%s"
@@ -350,15 +351,15 @@ msgstr ""
 
 #: plugins/dashboard.lua:113
 msgid "ℹ️ Group ► Admin list"
-msgstr "ℹ️ گروه ◄ لیست مدیران"
+msgstr "شما از قبل در بخش لیست مدیران هستید!"
 
 #: plugins/dashboard.lua:117
 msgid "ℹ️ Group ► Extra"
-msgstr "ℹ️ گروه ◄ دستورهای اضافه"
+msgstr "شما از قبل در بخش دستور های اضافه هستید!
 
 #: plugins/dashboard.lua:121
 msgid "ℹ️ Group ► Flood"
-msgstr "ℹ️ گروه ◄ ضدتکرار"
+msgstr "شما از قبل در بخش ضد تکرار هستید!"
 
 #: plugins/dashboard.lua:128 plugins/mediasettings.lua:19
 msgid "Documents"
@@ -398,7 +399,7 @@ msgstr ""
 
 #: plugins/dashboard.lua:149
 msgid "ℹ️ Group ► Media"
-msgstr "ℹ️ گروه ◄ رسانه"
+msgstr "شما از قبل در بخش رسانه هستید!"
 
 #: plugins/extra.lua:34
 #, lua-format
@@ -1163,23 +1164,23 @@ msgstr "🌍 زبان خود را انتخاب کنید"
 
 #: plugins/help.lua:280
 msgid "📕 All the commands"
-msgstr "📕 تمام دستورها"
+msgstr "📕 تمامی دستورات"
 
 #: plugins/help.lua:289
 msgid "Basics"
-msgstr "پایه"
+msgstr "📜 توضیحات دستورات"
 
 #: plugins/help.lua:290
 msgid "Admin commands"
-msgstr "دستور مخصوص مدیران"
+msgstr "👤 دستور مخصوص مدیران"
 
 #: plugins/help.lua:291
 msgid "Normal users commands"
-msgstr "دستور کاربران معمولی"
+msgstr "👥 دستور کاربران معمولی"
 
 #: plugins/help.lua:292
 msgid "Commands in private"
-msgstr "دستورهای خصوصی (پی وی) ربات"
+msgstr "🤖 دستورهای خصوصی (پی وی) ربات"
 
 #: plugins/help.lua:293
 msgid "Realm commands"
