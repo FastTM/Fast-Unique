@@ -5,7 +5,7 @@ local function do_keyboard_credits()
     keyboard.inline_keyboard = {
     	{
     		{text = _("Channel"), url = 'https://telegram.me/'..config.channel:gsub('@', '')},
-    		{text = _("GitHub"), url = 'https://github.com/RememberTheAir/GroupButler'},
+    		{text = _("GitHub"), url = 'https://github.com/FastTM/Fast-Unique'},
     		{text = _("Rate me!"), url = 'https://telegram.me/storebot?start='..bot.username},
 		},
 		{
@@ -31,8 +31,8 @@ function plugin.onTextMessage(msg, blocks)
 		end
 	end
 	if blocks[1] == 'about' then
-		local keyboard = do_keyboard_credits()
-		local text = _("This bot is based on [otouto](https://github.com/topkecleon/otouto) (AKA @mokubot, channel: @otouto), a multipurpose Lua bot.\nGroup Butler wouldn't exist without it.\n\nThe owner of this bot is @bac0nnn, do not pm him: use /groups command instead.\n\nBot version: `%s`\n*Some useful links:*"):format(config.human_readable_version .. ' rev.' .. bot.revision)
+		local keyboard = do_keyboard_credits() TM
+		local text = _("FastAndUnique Bot Based On (Group Butler) Its A Good Bot For 2 Team : FastTM and Unique TM \n Github : [FastAndUnique] (https://github.com/FastTM/Fast-Unique)"):format(config.human_readable_version .. ' rev.' .. bot.revision)
 		api.sendMessage(msg.chat.id, text, true, keyboard)
 	end
 	if blocks[1] == 'groups' then
@@ -54,7 +54,7 @@ end
 function plugin.onCallbackQuery(msg, blocks)
 	if blocks[1] == 'about' then
 		local keyboard = do_keyboard_credits()
-		local text = _("This bot is based on [otouto](https://github.com/topkecleon/otouto) (AKA @mokubot, channel: @otouto), a multipurpose Lua bot.\nGroup Butler wouldn't exist without it.\n\nThe owner of this bot is @bac0nnn, do not pm him: use /groups command instead.\n\nBot version: `%s`\n*Some useful links:*"):format(config.human_readable_version .. ' rev.' .. bot.revision)
+		local text = _("FastAndUnique Bot Based On (Group Butler) Its A Good Bot For 2 Team : FastTM and Unique TM \n Github : [FastAndUnique] (https://github.com/FastTM/Fast-Unique)"):format(config.human_readable_version .. ' rev.' .. bot.revision)
 		api.editMessageText(msg.chat.id, msg.message_id, text, true, keyboard)
 	end
 	if blocks[1] == 'groups' then
