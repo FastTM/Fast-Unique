@@ -32,7 +32,7 @@ function plugin.onTextMessage(msg, blocks)
 	end
 	if blocks[1] == 'about' then
 		local keyboard = do_keyboard_credits() TM
-		local text = _("FastAndUnique Bot Based On (Group Butler) Its A Good Bot For 2 Team : FastTM and Unique TM \n Github : [FastAndUnique] (https://github.com/FastTM/Fast-Unique)"):format(config.human_readable_version .. ' rev.' .. bot.revision)
+		local text = _("FastAndUnique Bot Based On (Group Butler) Its A Good Bot For 2 Team : FastTM and Unique TM \n Github : [FastAndUnique](https://github.com/FastTM/Fast-Unique)"):format(config.human_readable_version .. ' rev.' .. bot.revision)
 		api.sendMessage(msg.chat.id, text, true, keyboard)
 	end
 	if blocks[1] == 'groups' then
@@ -54,7 +54,7 @@ end
 function plugin.onCallbackQuery(msg, blocks)
 	if blocks[1] == 'about' then
 		local keyboard = do_keyboard_credits()
-		local text = _("FastAndUnique Bot Based On (Group Butler) Its A Good Bot For 2 Team : FastTM and Unique TM \n Github : [FastAndUnique] (https://github.com/FastTM/Fast-Unique)"):format(config.human_readable_version .. ' rev.' .. bot.revision)
+		local text = _("FastAndUnique Bot Based On (Group Butler) Its A Good Bot For 2 Team : FastTM and Unique TM \n Github : [FastAndUnique](https://github.com/FastTM/Fast-Unique)"):format(config.human_readable_version .. ' rev.' .. bot.revision)
 		api.editMessageText(msg.chat.id, msg.message_id, text, true, keyboard)
 	end
 	if blocks[1] == 'groups' then
