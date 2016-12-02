@@ -40,7 +40,7 @@ local function doKeyboard_privsett(user_id)
     }
     for key, status in pairs(user_settings) do
         local icon
-        if status == 'on' then icon = '✅' else icon = '☑️'end
+        if status == 'on' then icon = '✅' else icon = '❌'end
         table.insert(keyboard.inline_keyboard, {{text = button_names[key], callback_data = 'myset:alert:'..key}, {text = icon, callback_data = 'myset:switch:'..key}})
     end
     
